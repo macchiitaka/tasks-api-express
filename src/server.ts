@@ -23,7 +23,7 @@ app.use(express.urlencoded({ extended: true }))
 const router: express.Router = express.Router()
 
 router.get('*', (_: express.Request, response: express.Response) => {
-  response.json({ test: process.env.DATABASE })
+  response.json({ test: process.env.DATABASE_URL })
 })
 
 app.use(router)
