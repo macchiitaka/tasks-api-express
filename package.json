@@ -21,7 +21,7 @@
     "lint": "run-p lint:**",
     "lint:eslint": "eslint '**/*.{js,jsx,ts,tsx}' --cache",
     "prisma:generate": "prisma generate",
-    "serve": "node build/index.js",
+    "serve": "node build/server.js",
     "start": "ts-node-dev src/server.ts",
     "test": "npm run test:watch",
     "test:once": "jest --passWithNoTests",
