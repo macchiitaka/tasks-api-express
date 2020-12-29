@@ -6,7 +6,7 @@
   "author": "macchiitaka <zxcvbnmtacashi@gmail.com>",
   "main": "build/index.js",
   "scripts": {
-    "build": "tsc",
+    "build": "run-s prisma:migrate build:tsc",
     "build:tsc": "tsc --incremental false",
     "coverage": "run-p coverage:**",
     "coverage:jest": "jest --coverage --passWithNoTests",
@@ -20,6 +20,7 @@
     "lint": "run-p lint:**",
     "lint:eslint": "eslint '**/*.{js,jsx,ts,tsx}' --cache",
     "prisma:generate": "prisma generate",
+    "prisma:migrate": "prisma migrate deploy --preview-feature",
     "start": "ts-node-dev src/server.ts",
     "test": "npm run test:watch",
     "test:once": "jest --passWithNoTests",
