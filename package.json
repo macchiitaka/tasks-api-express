@@ -15,15 +15,16 @@
     "fmt:json": "prettier --write '**/*.json'",
     "fmt:markdown": "prettier --write '**/*.md'",
     "fmt:package-json": "sort-package-json",
+    "heroku-postbuild": "prisma migrate deploy --preview-feature",
     "initialize": "run-p initialize:*",
     "lint": "run-p lint:**",
     "lint:eslint": "eslint '**/*.{js,jsx,ts,tsx}' --cache",
     "prisma:generate": "prisma generate",
     "start": "ts-node-dev src/server.ts",
     "test": "npm run test:watch",
-    "type-watch": "tsc --noEmit -w",
     "test:once": "jest --passWithNoTests",
-    "test:watch": "jest --watch --passWithNoTests"
+    "test:watch": "jest --watch --passWithNoTests",
+    "type-watch": "tsc --noEmit -w"
   },
   "dependencies": {
     "@prisma/client": "2.13.1",
