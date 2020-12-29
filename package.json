@@ -17,7 +17,6 @@
     "fmt:markdown": "prettier --write '**/*.md'",
     "fmt:package-json": "sort-package-json",
     "initialize": "run-p initialize:*",
-    "postinstall": "prisma generate",
     "lint": "run-p lint:**",
     "lint:eslint": "eslint '**/*.{js,jsx,ts,tsx}' --cache",
     "prisma:generate": "prisma generate",
