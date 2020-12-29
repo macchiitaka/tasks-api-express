@@ -23,11 +23,11 @@ app.use(express.urlencoded({ extended: true }))
 const router: express.Router = express.Router()
 
 router.get('*', (_: express.Request, response: express.Response) => {
-  response.json({ test: 1 })
+  response.json({ test: process.env.DATABASE })
 })
 
 app.use(router)
 
 app.listen(PORT, () => {
-  console.log('Example app listening on port 3000!')
+  console.log(`App listening on port ${PORT}!`)
 })
