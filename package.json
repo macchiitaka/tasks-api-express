@@ -15,7 +15,6 @@
     "fmt:json": "prettier --write '**/*.json'",
     "fmt:markdown": "prettier --write '**/*.md'",
     "fmt:package-json": "sort-package-json",
-    "heroku-postbuild": "prisma migrate deploy --preview-feature",
     "initialize": "run-p initialize:*",
     "lint": "run-p lint:**",
     "lint:eslint": "eslint '**/*.{js,jsx,ts,tsx}' --cache",
