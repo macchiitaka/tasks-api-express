@@ -1,5 +1,6 @@
 import express from 'express'
 // import { PrismaClient } from '@prisma/client'
+import cors from 'cors'
 
 const PORT = process.env.PORT || 3000
 
@@ -16,6 +17,8 @@ const app: express.Express = express()
 //   res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept")
 //   next()
 // })
+// @todo set options
+app.use(cors({}))
 
 app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
