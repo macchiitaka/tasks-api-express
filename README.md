@@ -6,6 +6,8 @@ A Web API sample developed using Express + TypeScript + Prisma. [Demo](https://t
 
 - Architecture
   - [Clean Coder Blog](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)
+- API
+  - [REST API](https://www.redhat.com/en/topics/api/what-is-a-rest-api)
 - Web framework
   - [Express - Node.js web application framework](https://expressjs.com/)
 - Programming language
