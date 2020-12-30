@@ -1,0 +1,131 @@
+import { Task as TaskRecord } from '@prisma/client'
+import { TaskRepositoryInterface } from '../../application/repository-interface/task-repository-interface'
+import { TaskModel } from '../../domain/models/task-model'
+import { ErrorNotFound } from '../../utils/error'
+import { Prisma } from './prisma'
+
+const convertToModel = (record: TaskRecord): TaskModel => record
+
+/**
+ * @todo clean error handlers
+ */
+export class TaskRepository implements TaskRepositoryInterface {
+  private prisma: Prisma
+
+  constructor(prisma: Prisma) {
+    this.prisma = prisma
+  }
+
+  public findAll: TaskRepositoryInterface['findAll'] = async () => {
+    try {
+      const tasks = await this.prisma.task.findMany({
+        orderBy: {
+          created_at: 'asc',
+        },
+      })
+
+      await this.prisma.$disconnect()
+
+      return {
+        success: true,
+        data: tasks.map(convertToModel),
+      }
+    } catch (error) {
+      await this.prisma.$disconnect()
+
+      return {
+        success: false,
+        error,
+      }
+    }
+  }
+
+  public find: TaskRepositoryInterface['find'] = async (id) => {
+    try {
+      const task = await this.prisma.task.findUnique({
+        where: { id },
+      })
+
+      await this.prisma.$disconnect()
+
+      if (!task) {
+        return {
+          success: false,
+          error: new ErrorNotFound(),
+        }
+      }
+
+      return {
+        success: true,
+        data: convertToModel(task),
+      }
+    } catch (error) {
+      await this.prisma.$disconnect()
+
+      return {
+        success: false,
+        error,
+      }
+    }
+  }
+
+  public save: TaskRepositoryInterface['save'] = async (data) => {
+    try {
+      const task = await this.prisma.task.create({ data })
+
+      await this.prisma.$disconnect()
+
+      return {
+        success: true,
+        data: convertToModel(task),
+      }
+    } catch (error) {
+      await this.prisma.$disconnect()
+
+      return {
+        success: false,
+        error,
+      }
+    }
+  }
+
+  public replace: TaskRepositoryInterface['replace'] = async (id, data) => {
+    try {
+      const task = await this.prisma.task.update({ where: { id }, data })
+
+      await this.prisma.$disconnect()
+
+      return {
+        success: true,
+        data: convertToModel(task),
+      }
+    } catch (error) {
+      await this.prisma.$disconnect()
+
+      return {
+        success: false,
+        error,
+      }
+    }
+  }
+
+  public delete: TaskRepositoryInterface['delete'] = async (id: number) => {
+    try {
+      await this.prisma.task.delete({ where: { id } })
+
+      await this.prisma.$disconnect()
+
+      return {
+        success: true,
+        data: null,
+      }
+    } catch (error) {
+      await this.prisma.$disconnect()
+
+      return {
+        success: false,
+        error,
+      }
+    }
+  }
+}
