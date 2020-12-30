@@ -1,6 +1,6 @@
 # tasks-api-express
 
-A Web API sample developed using Express + TypeScript + Prisma. [Demo](https://tasks-api-express.herokuapp.com/api/v1/tasks)
+[Tasks] Web API using Express + TypeScript + Prisma. [Demo](https://tasks-api-express.herokuapp.com/api/v1/tasks)
 
 ## Technologies
 
