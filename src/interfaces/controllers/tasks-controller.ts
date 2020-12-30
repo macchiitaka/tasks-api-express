@@ -1,13 +1,14 @@
 import * as z from 'zod'
-import { TaskRepository } from '../database/task-repository'
-import { Prisma } from '../database/prisma'
+
 import { CreateTask } from '../../application/usecases/create-task'
-import { TaskSerialized, TaskSerializer } from '../serializers/task'
-import { ListTasks } from '../../application/usecases/list-tasks'
 import { GetTask } from '../../application/usecases/get-task'
-import { ReplaceTask } from '../../application/usecases/replace-task'
+import { ListTasks } from '../../application/usecases/list-tasks'
 import { RemoveTask } from '../../application/usecases/remove-task'
+import { ReplaceTask } from '../../application/usecases/replace-task'
 import { Response } from '../../utils/type'
+import { Prisma } from '../database/prisma'
+import { TaskRepository } from '../database/task-repository'
+import { TaskSerialized, TaskSerializer } from '../serializers/task'
 
 export const schema = {
   id: z.number().int().positive(),

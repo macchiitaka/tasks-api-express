@@ -1,4 +1,5 @@
 import { Task as TaskRecord } from '@prisma/client'
+
 import { TaskRepositoryInterface } from '../../application/repository-interface/task-repository-interface'
 import { TaskModel } from '../../domain/models/task-model'
 import { ErrorNotFound } from '../../utils/error'

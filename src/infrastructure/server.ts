@@ -1,6 +1,7 @@
-import express, { Request } from 'express'
 import cors from 'cors'
+import express, { Request } from 'express'
 import helmet from 'helmet'
+
 import { router } from './router'
 
 const PORT = process.env.PORT || 3000

@@ -1,5 +1,5 @@
-import { TaskRepositoryInterface } from '../repository-interface/task-repository-interface'
 import { TaskModel } from '../../domain/models/task-model'
+import { TaskRepositoryInterface } from '../repository-interface/task-repository-interface'
 
 export class CreateTask {
   private taskRepository: TaskRepositoryInterface

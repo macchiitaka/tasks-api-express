@@ -1,7 +1,8 @@
 import { Request, Response } from 'express'
+
 import { TaskSerialized } from '../../interfaces/serializers/task'
-import { taskController } from '../controllers'
 import { switchStatusCode } from '../../utils/error'
+import { taskController } from '../controllers'
 
 export const listTasks = async (
   _: Request<unknown, unknown, unknown, unknown>,
