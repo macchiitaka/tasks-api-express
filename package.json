@@ -6,10 +6,6 @@
   "author": "macchiitaka <zxcvbnmtacashi@gmail.com>",
   "main": "build/index.js",
   "scripts": {
-    "doc:build": "npx bundle ./doc/api.yml -o ./doc/dist/index.html --options.expandResponses=all",
-    "doc:watch": "run-p doc:watch:*",
-    "doc:watch:open": "wait-on tcp:8080 && open http://localhost:8080",
-    "doc:watch:serve": "npx redoc-cli serve ./doc/api.yml --watch --options.expandResponses=all",
     "build": "run-s prisma:migrate build:tsc",
     "build:tsc": "tsc --incremental false",
     "coverage": "run-p coverage:**",
