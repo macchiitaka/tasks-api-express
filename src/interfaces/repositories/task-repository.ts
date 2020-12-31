@@ -3,7 +3,7 @@ import { Task as TaskRecord } from '@prisma/client'
 import { TaskRepositoryInterface } from '../../application/repository-interface/task-repository-interface'
 import { TaskModel } from '../../domain/models/task-model'
 import { ErrorNotFound } from '../../utils/error'
-import { Prisma } from './prisma'
+import { Prisma } from '../database/prisma'
 
 const convertToModel = (record: TaskRecord): TaskModel => record
 
