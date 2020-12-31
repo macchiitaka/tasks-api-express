@@ -135,6 +135,7 @@ module.exports = {
     '@typescript-eslint/no-var-requires': 'off',
     '@typescript-eslint/prefer-for-of': 'warn',
     '@typescript-eslint/prefer-includes': 'error',
+    '@typescript-eslint/prefer-readonly': 'error',
     '@typescript-eslint/prefer-interface': 'off',
     '@typescript-eslint/prefer-optional-chain': 'off',
     '@typescript-eslint/prefer-string-starts-ends-with': 'error',

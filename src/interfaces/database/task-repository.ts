@@ -11,13 +11,13 @@ const convertToModel = (record: TaskRecord): TaskModel => record
  * @todo clean error handlers
  */
 export class TaskRepository implements TaskRepositoryInterface {
-  private prisma: Prisma
+  private readonly prisma: Prisma
 
   constructor(prisma: Prisma) {
     this.prisma = prisma
   }
 
-  public findAll: TaskRepositoryInterface['findAll'] = async () => {
+  public readonly findAll: TaskRepositoryInterface['findAll'] = async () => {
     try {
       const tasks = await this.prisma.task.findMany({
         orderBy: {
@@ -41,7 +41,7 @@ export class TaskRepository implements TaskRepositoryInterface {
     }
   }
 
-  public find: TaskRepositoryInterface['find'] = async (id) => {
+  public readonly find: TaskRepositoryInterface['find'] = async (id) => {
     try {
       const task = await this.prisma.task.findUnique({
         where: { id },
@@ -70,7 +70,7 @@ export class TaskRepository implements TaskRepositoryInterface {
     }
   }
 
-  public save: TaskRepositoryInterface['save'] = async (data) => {
+  public readonly save: TaskRepositoryInterface['save'] = async (data) => {
     try {
       const task = await this.prisma.task.create({ data })
 
@@ -90,7 +90,10 @@ export class TaskRepository implements TaskRepositoryInterface {
     }
   }
 
-  public replace: TaskRepositoryInterface['replace'] = async (id, data) => {
+  public readonly replace: TaskRepositoryInterface['replace'] = async (
+    id,
+    data,
+  ) => {
     try {
       const task = await this.prisma.task.update({ where: { id }, data })
 
@@ -110,7 +113,9 @@ export class TaskRepository implements TaskRepositoryInterface {
     }
   }
 
-  public delete: TaskRepositoryInterface['delete'] = async (id: number) => {
+  public readonly delete: TaskRepositoryInterface['delete'] = async (
+    id: number,
+  ) => {
     try {
       await this.prisma.task.delete({ where: { id } })
 

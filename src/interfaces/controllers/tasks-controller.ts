@@ -17,8 +17,8 @@ export const schema = {
 }
 
 export class TasksController {
-  private taskRepository: TaskRepository
-  private taskSerializer: TaskSerializer
+  private readonly taskRepository: TaskRepository
+  private readonly taskSerializer: TaskSerializer
 
   constructor(prisma: Prisma) {
     this.taskRepository = new TaskRepository(prisma)
