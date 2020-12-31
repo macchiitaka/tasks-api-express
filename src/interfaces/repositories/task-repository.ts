@@ -21,7 +21,7 @@ export class TaskRepository implements TaskRepositoryInterface {
     try {
       const tasks = await this.prisma.task.findMany({
         orderBy: {
-          created_at: 'asc',
+          created_at: 'desc',
         },
       })
 
