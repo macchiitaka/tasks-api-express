@@ -1,0 +1,203 @@
+openapi: 3.0.0
+info:
+  version: 1.0.0
+  title: tasks-api-express
+  description: ''
+  contact:
+    name: Takashi Machinaga
+    email: zxcvbnmtacashi@gmail.com
+servers:
+  - url: 'https://tasks-api-express.herokuapp.com/api/v1/tasks'
+paths:
+  /tasks:
+    get:
+      summary: List tasks
+      description: 'Fetch all tasks. Sorted in desc by created_at.'
+      operationId: listTasks
+      tags:
+        - tasks
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  items:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        id:
+                          type: number
+                          title: id
+                        title:
+                          type: string
+                          title: title
+                        done:
+                          type: boolean
+                          title: done
+                        created_at:
+                          description: RFC3339
+                          type: string
+                          title: created_at
+                        updated_at:
+                          description: RFC3339
+                          type: string
+                          title: updated_at
+                      required:
+                        - created_at
+                        - done
+                        - id
+                        - title
+                        - updated_at
+                required:
+                  - items
+    post:
+      summary: Create a task
+      description: 'Create a task.'
+      operationId: createTask
+      tags:
+        - tasks
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                title:
+                  type: string
+                  title: title
+              required:
+                - title
+      responses:
+        '201':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  id:
+                    type: number
+                    title: id
+                  title:
+                    type: string
+                    title: title
+                  done:
+                    type: boolean
+                    title: done
+                  created_at:
+                    description: RFC3339
+                    type: string
+                    title: created_at
+                  updated_at:
+                    description: RFC3339
+                    type: string
+                    title: updated_at
+                required:
+                  - created_at
+                  - done
+                  - id
+                  - title
+                  - updated_at
+  /tasks/:id:
+    get:
+      summary: Get the task
+      description: 'Fetch the task.'
+      operationId: getTask
+      tags:
+        - tasks
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  id:
+                    type: number
+                    title: id
+                  title:
+                    type: string
+                    title: title
+                  done:
+                    type: boolean
+                    title: done
+                  created_at:
+                    description: RFC3339
+                    type: string
+                    title: created_at
+                  updated_at:
+                    description: RFC3339
+                    type: string
+                    title: updated_at
+                required:
+                  - created_at
+                  - done
+                  - id
+                  - title
+                  - updated_at
+    put:
+      summary: Replace the task
+      description: 'Replace the task.'
+      operationId: replaceTask
+      tags:
+        - tasks
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                title:
+                  type: string
+                  title: title
+                done:
+                  type: boolean
+                  title: done
+              required:
+                - title
+                - done
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  id:
+                    type: number
+                    title: id
+                  title:
+                    type: string
+                    title: title
+                  done:
+                    type: boolean
+                    title: done
+                  created_at:
+                    description: RFC3339
+                    type: string
+                    title: created_at
+                  updated_at:
+                    description: RFC3339
+                    type: string
+                    title: updated_at
+                required:
+                  - created_at
+                  - done
+                  - id
+                  - title
+                  - updated_at
+    delete:
+      summary: Delete the task
+      description: 'Delete the task.'
+      operationId: geleteTask
+      tags:
+        - tasks
+      responses:
+        '204':
+          description: No Content

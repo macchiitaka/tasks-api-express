@@ -10,6 +10,8 @@
     "build:tsc": "tsc --incremental false",
     "coverage": "run-p coverage:**",
     "coverage:jest": "jest --coverage --passWithNoTests",
+    "doc:build": "npx redoc-cli bundle ./api.yml -o ./doc/index.html --options.expandResponses=all",
+    "doc:watch": "npx redoc-cli serve ./api.yml --watch --options.expandResponses=all",
     "fmt": "run-p fmt:**",
     "fmt:eslint": "eslint '**/*.{js,jsx,ts,tsx}' --fix --cache",
     "fmt:json": "prettier --write '**/*.json'",
