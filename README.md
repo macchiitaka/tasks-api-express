@@ -1,6 +1,11 @@
 # tasks-api-express
 
-[Tasks] Web API using Express + TypeScript + Prisma. [Demo](https://tasks-api-express.herokuapp.com/api/v1/tasks)
+[Tasks] Web API using Express + TypeScript + Prisma.
+
+## Links
+
+- [Demo](https://tasks-api-express.herokuapp.com/api/v1/tasks)
+- [OpenAPI](https://tasks-api-doc.netlify.app/)
 
 ## Technologies
 
