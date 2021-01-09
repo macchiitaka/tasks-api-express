@@ -10,10 +10,6 @@ export class TaskSerializer {
   })
 
   public serializeAll = (data: TaskModel[]) => ({
-    items: data.map(({ created_at, updated_at, ...rest }) => ({
-      ...rest,
-      created_at: new Date(created_at).toISOString(),
-      updated_at: new Date(updated_at).toISOString(),
-    })),
+    items: data.map(this.serialize),
   })
 }
