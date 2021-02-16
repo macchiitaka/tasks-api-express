@@ -38,7 +38,7 @@
     "express": "^4.17.1",
     "helmet": "^4.4.1",
     "tslib": "^2.0.3",
-    "zod": "^2.0.0-beta.29"
+    "zod": "^2.0.0-beta.30"
   },
   "devDependencies": {
     "@prisma/cli": "2.16.1",
