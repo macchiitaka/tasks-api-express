@@ -2,5 +2,6 @@
   "extends": [
     "github>macchiitaka/renovate-config",
     ":assignAndReview(macchiitaka)"
-  ]
+  ],
+  "schedule": ["after 7pm", "before 9am"]
 }
