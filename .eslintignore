@@ -1,5 +1,7 @@
-node_modules/
-build/
-coverage/
-!**/*rc.js
-doc/
+/node_modules/
+/build/
+/coverage/
+/doc/
+/*rc.js
+/*.config.js
+
