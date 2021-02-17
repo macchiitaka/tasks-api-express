@@ -5,7 +5,7 @@ import { GetTask } from '../../application/usecases/get-task'
 import { ListTasks } from '../../application/usecases/list-tasks'
 import { RemoveTask } from '../../application/usecases/remove-task'
 import { ReplaceTask } from '../../application/usecases/replace-task'
-import type { Response } from '../../utils/type'
+import type { FixMe, Response } from '../../utils/type'
 import type { Prisma } from '../database/prisma'
 import { TaskRepository } from '../repositories/task-repository'
 import type { TaskSerialized } from '../serializers/task'
@@ -19,9 +19,10 @@ export const schema = {
 
 export class TasksController {
   private readonly taskRepository: TaskRepository
+
   private readonly taskSerializer: TaskSerializer
 
-  constructor(prisma: Prisma) {
+  public constructor(prisma: Prisma) {
     this.taskRepository = new TaskRepository(prisma)
     this.taskSerializer = new TaskSerializer()
   }
@@ -61,7 +62,7 @@ export class TasksController {
   }
 
   public createTask = async (data: {
-    title: any
+    title: FixMe
   }): Response<TaskSerialized> => {
     const validation = z.object({ title: schema.title }).safeParse(data)
 
@@ -85,7 +86,7 @@ export class TasksController {
 
   public replaceTask = async (
     id: number,
-    data: { title: any; done: any },
+    data: { title: FixMe; done: FixMe },
   ): Response<TaskSerialized> => {
     const validation = z.object(schema).safeParse({ ...data, id })
 

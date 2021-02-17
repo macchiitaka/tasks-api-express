@@ -13,7 +13,7 @@ const convertToModel = (record: TaskRecord): TaskModel => record
 export class TaskRepository implements TaskRepositoryInterface {
   private readonly prisma: Prisma
 
-  constructor(prisma: Prisma) {
+  public constructor(prisma: Prisma) {
     this.prisma = prisma
   }
 

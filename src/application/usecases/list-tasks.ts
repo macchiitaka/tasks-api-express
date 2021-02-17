@@ -3,7 +3,7 @@ import type { TaskRepositoryInterface } from '../repository-interface/task-repos
 export class ListTasks {
   private readonly taskRepository: TaskRepositoryInterface
 
-  constructor(taskRepository: TaskRepositoryInterface) {
+  public constructor(taskRepository: TaskRepositoryInterface) {
     this.taskRepository = taskRepository
   }
 

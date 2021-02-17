@@ -2,6 +2,7 @@ import type { Request, Response } from 'express'
 
 import type { TaskSerialized } from '../../interfaces/serializers/task'
 import { switchStatusCode } from '../../utils/error'
+import type { FixMe } from '../../utils/type'
 import { taskController } from '../controllers'
 
 export const listTasks = async (
@@ -64,7 +65,7 @@ export const replaceTask = async (
   request: Request<
     { id?: string },
     unknown,
-    { title?: any; done?: any },
+    { title?: FixMe; done?: FixMe },
     unknown
   >,
   response: Response<TaskSerialized>,
