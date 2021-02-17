@@ -3,6 +3,7 @@ import express from 'express'
 import * as tasksHandler from './handlers/tasks-handlers'
 import * as PATH from './path'
 
+// eslint-disable-next-line new-cap
 const router: express.Router = express.Router()
 
 router.get(PATH.TASKS, tasksHandler.listTasks)

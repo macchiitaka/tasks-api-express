@@ -1,6 +1,6 @@
-import { Request, Response } from 'express'
+import type { Request, Response } from 'express'
 
-import { TaskSerialized } from '../../interfaces/serializers/task'
+import type { TaskSerialized } from '../../interfaces/serializers/task'
 import { switchStatusCode } from '../../utils/error'
 import { taskController } from '../controllers'
 
@@ -17,7 +17,7 @@ export const listTasks = async (
     }
 
     response.json(result.data)
-  } catch (error) {
+  } catch {
     response.status(500).send()
   }
 }
@@ -35,7 +35,7 @@ export const getTask = async (
     }
 
     response.json(result.data)
-  } catch (error) {
+  } catch {
     response.status(500).send()
   }
 }
@@ -46,7 +46,7 @@ export const createTask = async (
 ) => {
   try {
     const result = await taskController.createTask({
-      title: request.body?.title,
+      title: request.body.title,
     })
 
     if (!result.success) {
@@ -55,7 +55,7 @@ export const createTask = async (
     }
 
     response.json(result.data)
-  } catch (error) {
+  } catch {
     response.status(500).send()
   }
 }
@@ -71,8 +71,8 @@ export const replaceTask = async (
 ) => {
   try {
     const result = await taskController.replaceTask(Number(request.params.id), {
-      title: request.body?.title,
-      done: request.body?.done,
+      title: request.body.title,
+      done: request.body.done,
     })
 
     if (!result.success) {
@@ -81,7 +81,7 @@ export const replaceTask = async (
     }
 
     response.json(result.data)
-  } catch (error) {
+  } catch {
     response.status(500).send()
   }
 }
@@ -99,7 +99,7 @@ export const removeTask = async (
     }
 
     response.status(204).send()
-  } catch (error) {
+  } catch {
     response.status(500).send()
   }
 }

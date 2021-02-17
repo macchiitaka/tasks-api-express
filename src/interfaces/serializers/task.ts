@@ -1,4 +1,4 @@
-import { TaskModel } from '../../domain/models/task-model'
+import type { TaskModel } from '../../domain/models/task-model'
 
 export type TaskSerialized = ReturnType<TaskSerializer['serialize']>
 

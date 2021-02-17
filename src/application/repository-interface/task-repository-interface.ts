@@ -1,5 +1,5 @@
-import { TaskModel } from '../../domain/models/task-model'
-import { Response as R } from '../../utils/type'
+import type { TaskModel } from '../../domain/models/task-model'
+import type { Response as R } from '../../utils/type'
 
 export interface TaskRepositoryInterface {
   findAll(): R<TaskModel[]>

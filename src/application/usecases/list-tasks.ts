@@ -1,4 +1,4 @@
-import { TaskRepositoryInterface } from '../repository-interface/task-repository-interface'
+import type { TaskRepositoryInterface } from '../repository-interface/task-repository-interface'
 
 export class ListTasks {
   private readonly taskRepository: TaskRepositoryInterface

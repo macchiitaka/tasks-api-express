@@ -5,10 +5,11 @@ import { GetTask } from '../../application/usecases/get-task'
 import { ListTasks } from '../../application/usecases/list-tasks'
 import { RemoveTask } from '../../application/usecases/remove-task'
 import { ReplaceTask } from '../../application/usecases/replace-task'
-import { Response } from '../../utils/type'
-import { Prisma } from '../database/prisma'
+import type { Response } from '../../utils/type'
+import type { Prisma } from '../database/prisma'
 import { TaskRepository } from '../repositories/task-repository'
-import { TaskSerialized, TaskSerializer } from '../serializers/task'
+import type { TaskSerialized } from '../serializers/task'
+import { TaskSerializer } from '../serializers/task'
 
 export const schema = {
   id: z.number().int().positive(),
