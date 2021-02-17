@@ -555,10 +555,10 @@
   dependencies:
     "@sinonjs/commons" "^1.7.0"
 
-"@takamachi/eslint-config@^0.0.7":
-  version "0.0.7"
-  resolved "https://registry.yarnpkg.com/@takamachi/eslint-config/-/eslint-config-0.0.7.tgz#babdfd287db35ba65e25b30e793afa23c17977c1"
-  integrity sha512-8DAivF1yPwGCZRoStNBm4XbhrfUnIiFhsv1gunM4zu75UQlh+lcZLLHgrUXxnoVYTNstBQgu9KC+LhtcFRGYdg==
+"@takamachi/eslint-config@^0.0.8":
+  version "0.0.8"
+  resolved "https://registry.yarnpkg.com/@takamachi/eslint-config/-/eslint-config-0.0.8.tgz#7770ec352e20850f78b57a1d1590e80675fb5eb6"
+  integrity sha512-vaJ0rSg5A8i0W7DluaVUXsfzq+m33QrBp9Bp+K9EoRjNtFSh2Nua8tnZSM4BikSv3yVx9dxtMIZ8QbM4fEoEGw==
   dependencies:
     "@typescript-eslint/eslint-plugin" "^4.15.1"
     "@typescript-eslint/parser" "^4.15.1"
