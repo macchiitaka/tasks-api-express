@@ -12,7 +12,7 @@
     "coverage:jest": "jest --coverage --passWithNoTests",
     "doc:build": "npx redoc-cli bundle ./api.yml -o ./doc/index.html --options.expandResponses=all",
     "doc:watch": "npx redoc-cli serve ./api.yml --watch --options.expandResponses=all",
-    "fmt": "run-p fmt:**",
+    "fmt": "run-s fmt:prettier fmt:package-json fmt:eslint",
     "fmt:prettier": "prettier --write --tab-width 2 '**/*.{js,jsx,ts,tsx,json,md}'",
     "fmt:eslint": "eslint '**/*.{js,jsx,ts,tsx}' --cache --fix",
     "fmt:package-json": "sort-package-json",
