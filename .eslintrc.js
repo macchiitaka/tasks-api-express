@@ -4,7 +4,7 @@ module.exports = {
     'jest/globals': true,
   },
   extends: [
-    "@takamachi/eslint-config/presets/node-typescript-prettier",
+    '@takamachi/eslint-config/presets/node-typescript-prettier',
     'plugin:jest/recommended',
   ],
   parserOptions: {
