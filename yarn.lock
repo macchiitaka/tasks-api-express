@@ -591,15 +591,15 @@
   dependencies:
     "@sinonjs/commons" "^1.7.0"
 
-"@takamachi/eslint-config@^0.0.14":
-  version "0.0.14"
-  resolved "https://registry.yarnpkg.com/@takamachi/eslint-config/-/eslint-config-0.0.14.tgz#661a4fa0370efdb0345c3db45ff94c88814ff8c8"
-  integrity sha512-Z5wqOt3951RpARSlryX+4RYTE9E1JfKcowvx7iNlwYxPeJMKiILtMp0pdlRNl1Mn5mHVKhN+H2JellZ98dh8Tw==
+"@takamachi/eslint-config@^0.0.16":
+  version "0.0.16"
+  resolved "https://registry.yarnpkg.com/@takamachi/eslint-config/-/eslint-config-0.0.16.tgz#2c73543188621d097a82664313731abab3f411fa"
+  integrity sha512-SEZRqs/3weQ7BaQJdkMSaERyC+M5Cs1cW6sAexhqj64ABm8nV8zIsZ64bBdlphWbgXfqxBzWHGzBH/TSx/1cjg==
   dependencies:
     "@typescript-eslint/eslint-plugin" "^4.15.2"
     "@typescript-eslint/parser" "^4.15.2"
     babel-eslint "^10.1.0"
-    eslint-config-prettier "^8.0.0"
+    eslint-config-prettier "^8.1.0"
     eslint-plugin-import "^2.22.1"
     eslint-plugin-jsx-a11y "^6.4.1"
     eslint-plugin-node "^11.1.0"
@@ -2004,7 +2004,7 @@ escodegen@^1.14.1:
   optionalDependencies:
     source-map "~0.6.1"
 
-eslint-config-prettier@^8.0.0:
+eslint-config-prettier@^8.1.0:
   version "8.1.0"
   resolved "https://registry.yarnpkg.com/eslint-config-prettier/-/eslint-config-prettier-8.1.0.tgz#4ef1eaf97afe5176e6a75ddfb57c335121abc5a6"
   integrity sha512-oKMhGv3ihGbCIimCAjqkdzx2Q+jthoqnXSP+d86M9tptwugycmTFdVR4IpLgq2c4SHifbwO90z2fQ8/Aio73yw==
