@@ -591,13 +591,13 @@
   dependencies:
     "@sinonjs/commons" "^1.7.0"
 
-"@takamachi/eslint-config@^0.0.17":
-  version "0.0.17"
-  resolved "https://registry.yarnpkg.com/@takamachi/eslint-config/-/eslint-config-0.0.17.tgz#a3ec05258aa0811a47287264818b58355087afb5"
-  integrity sha512-TNkldoAu9+BHzTA0taK17cVzBB+Uc10uOWgg4WShqbKEShELEY2wGlkdpKUvaT/9vgmA87o/33gj+sH8eZjeUw==
+"@takamachi/eslint-config@^0.0.18":
+  version "0.0.18"
+  resolved "https://registry.yarnpkg.com/@takamachi/eslint-config/-/eslint-config-0.0.18.tgz#3a7f06219605c9a381beccb0913c2b75191d9c13"
+  integrity sha512-9BNYmiGgXgw6E41xPyK4KxxbucyW6BwJ685fG2hju8XxQSBIYK6Ov85MgrUr/Bg57GKLeUTrspKVzddN2cNh4w==
   dependencies:
-    "@typescript-eslint/eslint-plugin" "^4.16.0"
-    "@typescript-eslint/parser" "^4.16.0"
+    "@typescript-eslint/eslint-plugin" "^4.16.1"
+    "@typescript-eslint/parser" "^4.16.1"
     babel-eslint "^10.1.0"
     eslint-config-prettier "^8.1.0"
     eslint-plugin-import "^2.22.1"
@@ -839,7 +839,7 @@
   dependencies:
     "@types/yargs-parser" "*"
 
-"@typescript-eslint/eslint-plugin@^4.16.0":
+"@typescript-eslint/eslint-plugin@^4.16.1":
   version "4.16.1"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/eslint-plugin/-/eslint-plugin-4.16.1.tgz#2caf6a79dd19c3853b8d39769a27fccb24e4e651"
   integrity sha512-SK777klBdlkUZpZLC1mPvyOWk9yAFCWmug13eAjVQ4/Q1LATE/NbcQL1xDHkptQkZOLnPmLUA1Y54m8dqYwnoQ==
@@ -865,7 +865,7 @@
     eslint-scope "^5.0.0"
     eslint-utils "^2.0.0"
 
-"@typescript-eslint/parser@^4.16.0":
+"@typescript-eslint/parser@^4.16.1":
   version "4.16.1"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/parser/-/parser-4.16.1.tgz#3bbd3234dd3c5b882b2bcd9899bc30e1e1586d2a"
   integrity sha512-/c0LEZcDL5y8RyI1zLcmZMvJrsR6SM1uetskFkoh3dvqDKVXPsXI+wFB/CbVw7WkEyyTKobC1mUNp/5y6gRvXg==
