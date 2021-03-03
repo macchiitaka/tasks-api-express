@@ -7,17 +7,12 @@ jobs:
     strategy:
       matrix:
         os: [ubuntu-18.04, windows-latest, macos-latest]
-        node: [14]
     runs-on: ${{ matrix.os }}
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
-      - name: Set Node.js ${{ matrix.node }}
-        uses: actions/setup-node@v2.1.5
-        with:
-          node-version: ${{ matrix.node }}
-      - name: Install npm and yarn
-        run: npm i npm yarn@1 -g
+      - name: Setup Node.js
+        uses: volta-cli/action@v1.6.0
       # https://github.com/actions/cache/blob/master/examples.md#node---yarn
       - name: Get yarn cache directory path
         id: yarn-cache-dir-path
