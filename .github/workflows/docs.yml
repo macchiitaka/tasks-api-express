@@ -13,8 +13,9 @@ jobs:
       - name: Build document
         run: yarn doc:build
       - if: github.ref == 'refs/heads/master'
-      - name: Deploy
+        name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./doc
+
