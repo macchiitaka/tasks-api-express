@@ -5,7 +5,7 @@
 ## Links
 
 - [Demo](https://tasks-api-express.herokuapp.com/api/v1/tasks)
-- [OpenAPI](https://tasks-api-doc.netlify.app/)
+- [OpenAPI](https://macchiitaka.github.io/tasks-api-express/)
 
 ## Technologies
 
