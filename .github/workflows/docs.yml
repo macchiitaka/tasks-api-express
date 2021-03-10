@@ -1,8 +1,5 @@
 name: Docs
-on:
-  push:
-    branches:
-      - main
+on: push
 
 jobs:
   openapi:
@@ -15,6 +12,7 @@ jobs:
         uses: volta-cli/action@v1.7.0
       - name: Build document
         run: yarn doc:build
+      - if: github.ref == 'refs/heads/master'
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
