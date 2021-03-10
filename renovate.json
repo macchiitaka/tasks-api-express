@@ -1,3 +1,10 @@
 {
-  "extends": ["github>macchiitaka/renovate-config", ":assignee(macchiitaka)"]
+  "extends": ["github>macchiitaka/renovate-config", ":assignee(macchiitaka)"],
+  "packageRules": [
+    {
+      "description": "enable package.json > engines update",
+      "matchDepTypes": ["engines"],
+      "enabled": true
+    }
+  ]
 }
