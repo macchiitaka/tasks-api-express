@@ -52,13 +52,13 @@ $ docker run -e POSTGRES_PASSWORD=postgres -e POSTGRES_DB=tasks -p 5432:5432 pos
 Run PostgreSQL.
 
 ```bash
-$ npx prisma migrate dev --preview-feature
+$ npx prisma migrate dev
 ```
 
 Create a migration from changes in Prisma schema, apply it to the database trigger generators (e.g. Prisma Client)
 
 ```bash
-$ npx prisma migrate deploy --preview-feature
+$ npx prisma migrate deploy
 ```
 
 The migrate deploy command applies all pending migrations. Primarily used in non-development environments.
