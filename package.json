@@ -24,7 +24,7 @@
     "postinstall:husky": "is-ci || husky install",
     "postinstall:prisma": "prisma generate",
     "prisma:generate": "prisma generate",
-    "prisma:migrate": "prisma migrate deploy --preview-feature",
+    "prisma:migrate": "prisma migrate deploy",
     "start": "ts-node-dev src/infrastructure/server.ts",
     "test": "npm run test:watch",
     "test:once": "jest --passWithNoTests",
