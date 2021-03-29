@@ -551,13 +551,6 @@
     "@nodelib/fs.scandir" "2.1.4"
     fastq "^1.6.0"
 
-"@prisma/cli@2.19.0":
-  version "2.19.0"
-  resolved "https://registry.yarnpkg.com/@prisma/cli/-/cli-2.19.0.tgz#6955a59a66c99a4896de80af10dec54e9f69d637"
-  integrity sha512-a3OlD3H9SaFaF4bP1JdcPLE6ysJqQy5JmJs2/NbKAasbDUPWsJldbbZ52x3dMqnqgBy1zDxycw0irfHi5VfWJg==
-  dependencies:
-    "@prisma/engines" "2.19.0-39.c1455d0b443d66b0d9db9bcb1bb9ee0d5bbc511d"
-
 "@prisma/client@^2.19.0":
   version "2.19.0"
   resolved "https://registry.yarnpkg.com/@prisma/client/-/client-2.19.0.tgz#a45f17a59fd109e95b61bf4b56d4a7642169ec0e"
@@ -4652,6 +4645,13 @@ pretty-format@^26.0.0, pretty-format@^26.6.2:
     ansi-regex "^5.0.0"
     ansi-styles "^4.0.0"
     react-is "^17.0.1"
+
+prisma@^2.19.0:
+  version "2.19.0"
+  resolved "https://registry.yarnpkg.com/prisma/-/prisma-2.19.0.tgz#2c14f9cbbfb0ab69c8a9473e16736759713d29ad"
+  integrity sha512-iartCNVrtR4XT20ABN3zrSi3R/pCBe75Y0ZH8681QIGm8qjRQzf3DnbscPZgZ9iY4KFuVxL8ZrBQVDmRhpN0EQ==
+  dependencies:
+    "@prisma/engines" "2.19.0-39.c1455d0b443d66b0d9db9bcb1bb9ee0d5bbc511d"
 
 progress@^2.0.0:
   version "2.0.3"
