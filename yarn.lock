@@ -580,10 +580,10 @@
   dependencies:
     "@sinonjs/commons" "^1.7.0"
 
-"@takamachi/eslint-config@^0.3.7":
-  version "0.3.7"
-  resolved "https://registry.yarnpkg.com/@takamachi/eslint-config/-/eslint-config-0.3.7.tgz#a34cb7a99e65f2d1bd398934004ccadc7d6fe82c"
-  integrity sha512-yLfjEnlG6jqFstYoluOYpZ5smJmloB05DlAmGgLEefY4ii7VNlJlhmXQifeGSxo+bN5flaLg1HW0Y3zyWGgQkw==
+"@takamachi/eslint-config@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@takamachi/eslint-config/-/eslint-config-1.0.0.tgz#6c45bce41c11f3ffaef8ca5337e521478df72316"
+  integrity sha512-QNzESvDEcW0RBUJptL2b0vbzOvr4FVDFu4+4EEJkQPYm7UiGtLb8pYPdIDw6SQ6oVWKG4kHcpbWI15bOhtGMMg==
   dependencies:
     "@typescript-eslint/eslint-plugin" "^4.22.1"
     "@typescript-eslint/parser" "^4.22.1"
@@ -594,7 +594,7 @@
     eslint-plugin-react "^7.23.2"
     eslint-plugin-react-hooks "^4.2.0"
     eslint-plugin-simple-import-sort "^7.0.0"
-    eslint-plugin-unicorn "^31.0.0"
+    eslint-plugin-unicorn "^32.0.0"
     eslint-plugin-vue "^7.9.0"
 
 "@types/babel__core@^7.0.0", "@types/babel__core@^7.1.7":
@@ -2100,16 +2100,15 @@ eslint-plugin-simple-import-sort@^7.0.0:
   resolved "https://registry.yarnpkg.com/eslint-plugin-simple-import-sort/-/eslint-plugin-simple-import-sort-7.0.0.tgz#a1dad262f46d2184a90095a60c66fef74727f0f8"
   integrity sha512-U3vEDB5zhYPNfxT5TYR7u01dboFZp+HNpnGhkDB2g/2E4wZ/g1Q9Ton8UwCLfRV9yAKyYqDh62oHOamvkFxsvw==
 
-eslint-plugin-unicorn@^31.0.0:
-  version "31.0.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-unicorn/-/eslint-plugin-unicorn-31.0.0.tgz#53eef3f5152ddaa531888f77a420313e30d9864a"
-  integrity sha512-HR3gI4ANtV8A+0FLAaxjBD/G5J3PWBo+7OswyGeK5nylGqtKLJVbnPksIkBgmVg+SFpxu5MnjaxQQI+9KjyVAg==
+eslint-plugin-unicorn@^32.0.0:
+  version "32.0.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-unicorn/-/eslint-plugin-unicorn-32.0.0.tgz#a62fa2752b80259ffb8b24878631148237dc2a4d"
+  integrity sha512-VYE/XvZvdcY0RvOKGxsrVVWo8DaI/tGVYuhKzSd6Uuy69Ydc8zX+roZ/H9PgyykM4nuj8JDoOHSwVk9a4OYbCQ==
   dependencies:
     ci-info "^3.1.1"
     clean-regexp "^1.0.0"
     eslint-template-visitor "^2.3.2"
     eslint-utils "^2.1.0"
-    eslint-visitor-keys "^2.0.0"
     import-modules "^2.1.0"
     is-builtin-module "^3.1.0"
     lodash "^4.17.21"
