@@ -683,10 +683,10 @@
   resolved "https://registry.yarnpkg.com/@types/cors/-/cors-2.8.10.tgz#61cc8469849e5bcdd0c7044122265c39cec10cf4"
   integrity sha512-C7srjHiVG3Ey1nR6d511dtDkCEjxuN9W1HWAEjGq8kpcwmNM6JJkpC0xvabM7BXTG2wDq8Eu33iH9aQKa7IvLQ==
 
-"@types/eslint@7.2.12":
-  version "7.2.12"
-  resolved "https://registry.yarnpkg.com/@types/eslint/-/eslint-7.2.12.tgz#fefaa48a4db2415b621fe315e4baeedde525927e"
-  integrity sha512-HjikV/jX6e0Pg4DcB+rtOBKSrG6w5IaxWpmi3efL/eLxMz5lZTK+W1DKERrX5a+mNzL78axfsDNXu7JHFP4uLg==
+"@types/eslint@7.2.13":
+  version "7.2.13"
+  resolved "https://registry.yarnpkg.com/@types/eslint/-/eslint-7.2.13.tgz#e0ca7219ba5ded402062ad6f926d491ebb29dd53"
+  integrity sha512-LKmQCWAlnVHvvXq4oasNUMTJJb2GwSyTY8+1C7OH5ILR8mPLaljv1jxL1bXW3xB3jFbQxTKxJAvI8PyjB09aBg==
   dependencies:
     "@types/estree" "*"
     "@types/json-schema" "*"
