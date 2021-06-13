@@ -588,13 +588,13 @@
   dependencies:
     "@sinonjs/commons" "^1.7.0"
 
-"@takamachi/eslint-config@^1.0.4":
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/@takamachi/eslint-config/-/eslint-config-1.0.4.tgz#e3c63c39b46e6194a21f02124d64240fde9e77a9"
-  integrity sha512-FKObUYtBzsR5NU7bIAi+EOGetZetSIuoSm3UByLUSVLL+fM0pdCV3IJSmeK0CDq2C3F5EMpkPBzz8qCkG60npg==
+"@takamachi/eslint-config@^1.0.5":
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/@takamachi/eslint-config/-/eslint-config-1.0.5.tgz#7e75f6f4ae96a17793387fb334becdace8b7cebc"
+  integrity sha512-5lnTASy2EzIVblBtKddUsB3d43CHsRD/HHN61nEtPOkPtHEHGrAR0ht0Xh+aFJLWWkV3SMJtvuU6HzcMvQDTHA==
   dependencies:
-    "@typescript-eslint/eslint-plugin" "^4.26.0"
-    "@typescript-eslint/parser" "^4.26.0"
+    "@typescript-eslint/eslint-plugin" "^4.26.1"
+    "@typescript-eslint/parser" "^4.26.1"
     eslint-config-prettier "^8.3.0"
     eslint-plugin-import "^2.23.4"
     eslint-plugin-jsx-a11y "^6.4.1"
@@ -603,7 +603,7 @@
     eslint-plugin-react-hooks "^4.2.0"
     eslint-plugin-simple-import-sort "^7.0.0"
     eslint-plugin-unicorn "^33.0.1"
-    eslint-plugin-vue "^7.10.0"
+    eslint-plugin-vue "^7.11.1"
 
 "@tootallnate/once@1":
   version "1.1.2"
@@ -863,7 +863,7 @@
   dependencies:
     "@types/yargs-parser" "*"
 
-"@typescript-eslint/eslint-plugin@^4.26.0":
+"@typescript-eslint/eslint-plugin@^4.26.1":
   version "4.26.1"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/eslint-plugin/-/eslint-plugin-4.26.1.tgz#b9c7313321cb837e2bf8bebe7acc2220659e67d3"
   integrity sha512-aoIusj/8CR+xDWmZxARivZjbMBQTT9dImUtdZ8tVCVRXgBUuuZyM5Of5A9D9arQPxbi/0rlJLcuArclz/rCMJw==
@@ -889,7 +889,7 @@
     eslint-scope "^5.1.1"
     eslint-utils "^3.0.0"
 
-"@typescript-eslint/parser@^4.26.0":
+"@typescript-eslint/parser@^4.26.1":
   version "4.26.1"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/parser/-/parser-4.26.1.tgz#cecfdd5eb7a5c13aabce1c1cfd7fbafb5a0f1e8e"
   integrity sha512-q7F3zSo/nU6YJpPJvQveVlIIzx9/wu75lr6oDbDzoeIRWxpoc/HQ43G4rmMoCc5my/3uSj2VEpg/D83LYZF5HQ==
@@ -1967,10 +1967,10 @@ eslint-plugin-unicorn@^33.0.1:
     safe-regex "^2.1.1"
     semver "^7.3.5"
 
-eslint-plugin-vue@^7.10.0:
-  version "7.10.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-vue/-/eslint-plugin-vue-7.10.0.tgz#251749aa99e089e085275f011042c6e74189f89a"
-  integrity sha512-xdr6e4t/L2moRAeEQ9HKgge/hFq+w9v5Dj+BA54nTAzSFdUyKLiSOdZaRQjCHMY0Pk2WaQBFH9QiWG60xiC+6A==
+eslint-plugin-vue@^7.11.1:
+  version "7.11.1"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-vue/-/eslint-plugin-vue-7.11.1.tgz#77eb4b44032d5cca79f9af21d06991d8694a314a"
+  integrity sha512-lbw3vkEAGqYjqd1HpPFWHXtYaS8mILTJ5KOpJfRxO3Fo7o0wCf1zD7vSOasbm6nTA9xIgvZQ4VcyGIzQXxznHw==
   dependencies:
     eslint-utils "^2.1.0"
     natural-compare "^1.4.0"
