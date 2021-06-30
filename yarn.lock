@@ -596,10 +596,10 @@
   dependencies:
     "@sinonjs/commons" "^1.7.0"
 
-"@takamachi/eslint-config@^1.0.6":
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/@takamachi/eslint-config/-/eslint-config-1.0.6.tgz#722cefe2560fc028008c1ccd32117b9f3622bb89"
-  integrity sha512-uMn4rmd/0DYpRmgsE6adH4n9zrPH9if5nO/u0P8jCrEkoMwB1bzbjq9quMwuWcc8bOTvZMedY0X76tf2p3vW6A==
+"@takamachi/eslint-config@^1.0.7":
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/@takamachi/eslint-config/-/eslint-config-1.0.7.tgz#1c3b49a37fe911b5510b10b6e7ce2b6e87e487b3"
+  integrity sha512-JUiFbhVIbfpligQCcPPrbYSvLBaEbKhW4cvUx6X0t5y9kKvMbNLcjIfqyJDauVlOVXBITtkgtphOhagO2SLGlA==
   dependencies:
     "@typescript-eslint/eslint-plugin" "^4.28.1"
     "@typescript-eslint/parser" "^4.28.1"
@@ -610,7 +610,7 @@
     eslint-plugin-react "^7.24.0"
     eslint-plugin-react-hooks "^4.2.0"
     eslint-plugin-simple-import-sort "^7.0.0"
-    eslint-plugin-unicorn "^34.0.0"
+    eslint-plugin-unicorn "^34.0.1"
     eslint-plugin-vue "^7.12.1"
 
 "@tootallnate/once@1":
@@ -1917,10 +1917,10 @@ eslint-plugin-simple-import-sort@^7.0.0:
   resolved "https://registry.yarnpkg.com/eslint-plugin-simple-import-sort/-/eslint-plugin-simple-import-sort-7.0.0.tgz#a1dad262f46d2184a90095a60c66fef74727f0f8"
   integrity sha512-U3vEDB5zhYPNfxT5TYR7u01dboFZp+HNpnGhkDB2g/2E4wZ/g1Q9Ton8UwCLfRV9yAKyYqDh62oHOamvkFxsvw==
 
-eslint-plugin-unicorn@^34.0.0:
-  version "34.0.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-unicorn/-/eslint-plugin-unicorn-34.0.0.tgz#59b5319c69369186ead38c5bc1f675414b06678c"
-  integrity sha512-O2S5Y823IymGWjFG1sa+F3zZYa8F9NukNT0qZfsAnLciY9721/kKxAsfSomlFR3o+8OfohytHdVVKGb3sNy7dA==
+eslint-plugin-unicorn@^34.0.1:
+  version "34.0.1"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-unicorn/-/eslint-plugin-unicorn-34.0.1.tgz#e31cfaf487591599ff1f1b1e74776cce59dcc3ae"
+  integrity sha512-GUBtRYRhPVOW/GDu6QtOjrneSZxY/MulOT8puJU+47VKCzNmMgS/iHO2gZqoQ7KPMrpNYlebUlvCWy3IR1USVQ==
   dependencies:
     ci-info "^3.2.0"
     clean-regexp "^1.0.0"
