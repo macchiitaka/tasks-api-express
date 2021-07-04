@@ -40,7 +40,7 @@
     "express": "^4.17.1",
     "helmet": "^4.6.0",
     "tslib": "^2.3.0",
-    "zod": "^3.3.1"
+    "zod": "^3.3.2"
   },
   "devDependencies": {
     "@takamachi/eslint-config": "^1.0.7",
