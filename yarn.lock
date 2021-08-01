@@ -610,7 +610,7 @@
   dependencies:
     "@sinonjs/commons" "^1.7.0"
 
-"@takamachi/eslint-config@^1.0.9":
+"@takamachi/eslint-config@^1.0.10":
   version "1.0.10"
   resolved "https://registry.yarnpkg.com/@takamachi/eslint-config/-/eslint-config-1.0.10.tgz#2bfa4a001027a69fa84fb9d792b47666fa668097"
   integrity sha512-MLTYZHRb8RK49LAnYEXeO5n0AYfSzxpB0zgTQcBDtEXIlJySzVMTL8XBlMH158y4ik8yzst4zy/e31w0EGgKMA==
