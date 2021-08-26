@@ -1,5 +1,3 @@
-import 'newrelic'
-
 import cors from 'cors'
 import type { Request } from 'express'
 import express from 'express'
