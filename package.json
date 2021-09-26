@@ -40,7 +40,7 @@
     "express": "^4.17.1",
     "helmet": "^4.6.0",
     "tslib": "^2.3.1",
-    "zod": "^3.8.2"
+    "zod": "^3.9.1"
   },
   "devDependencies": {
     "@takamachi/eslint-config": "^1.0.17",
@@ -56,7 +56,7 @@
     "eslint-plugin-jest": "24.4.2",
     "husky": "7.0.2",
     "is-ci": "3.0.0",
-    "jest": "27.2.1",
+    "jest": "27.2.2",
     "lint-staged": "11.1.2",
     "npm-run-all": "4.1.5",
     "pinst": "2.1.6",

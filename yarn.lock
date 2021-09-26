@@ -545,7 +545,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@jest/core@npm:^27.2.1, @jest/core@npm:^27.2.2":
+"@jest/core@npm:^27.2.2":
   version: 27.2.2
   resolution: "@jest/core@npm:27.2.2"
   dependencies:
@@ -4003,7 +4003,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jest-cli@npm:^27.2.1":
+"jest-cli@npm:^27.2.2":
   version: 27.2.2
   resolution: "jest-cli@npm:27.2.2"
   dependencies:
@@ -4442,13 +4442,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jest@npm:27.2.1":
-  version: 27.2.1
-  resolution: "jest@npm:27.2.1"
+"jest@npm:27.2.2":
+  version: 27.2.2
+  resolution: "jest@npm:27.2.2"
   dependencies:
-    "@jest/core": ^27.2.1
+    "@jest/core": ^27.2.2
     import-local: ^3.0.2
-    jest-cli: ^27.2.1
+    jest-cli: ^27.2.2
   peerDependencies:
     node-notifier: ^8.0.1 || ^9.0.0 || ^10.0.0
   peerDependenciesMeta:
@@ -4456,7 +4456,7 @@ __metadata:
       optional: true
   bin:
     jest: bin/jest.js
-  checksum: c9753ed1233c9318f9885e278924e15c018c50e5374b0e8d968cf652d6d1a2e86c53fa00cc01ce1bfaaffb762a48a7db9e7b98bcb28574493aeda5e852b35f5e
+  checksum: 3192ceade537c6cec1470d6b800d3ed64a6cb0c6881f3c754a15cffdb2469e26bda56176ef15717fa546063f2776f728310f561f11cb7e5b51052d9f8e3e48a8
   languageName: node
   linkType: hard
 
@@ -6644,7 +6644,7 @@ resolve@^2.0.0-next.3:
     helmet: ^4.6.0
     husky: 7.0.2
     is-ci: 3.0.0
-    jest: 27.2.1
+    jest: 27.2.2
     lint-staged: 11.1.2
     npm-run-all: 4.1.5
     pinst: 2.1.6
@@ -6656,7 +6656,7 @@ resolve@^2.0.0-next.3:
     ts-node-dev: 1.1.8
     tslib: ^2.3.1
     typescript: 4.3.5
-    zod: ^3.8.2
+    zod: ^3.9.1
   languageName: unknown
   linkType: soft
 
@@ -7382,7 +7382,7 @@ typescript@4.3.5:
   languageName: node
   linkType: hard
 
-"zod@npm:^3.8.2":
+"zod@npm:^3.9.1":
   version: 3.9.1
   resolution: "zod@npm:3.9.1"
   checksum: 5a733058fe341e6b6771806c3366515fdac524dcd45659070d146ba3ceb32ea993403cd1d6c46b24a81aa3757b1399a93e729b8f64b110041868c8fd975716c2
