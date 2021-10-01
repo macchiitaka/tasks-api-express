@@ -610,10 +610,10 @@
   dependencies:
     "@sinonjs/commons" "^1.7.0"
 
-"@takamachi/eslint-config@^1.0.18":
-  version "1.0.18"
-  resolved "https://registry.yarnpkg.com/@takamachi/eslint-config/-/eslint-config-1.0.18.tgz#803f1be8035047f5c46866a8004b259421451470"
-  integrity sha512-Lm9jOhLxSdirjtf5RFuhgCccD0D0Ffggregv1qt+m1Z7yp0h0ipJpW5JOXdeXK0ShIvAr+qdLgNWo8vgaJ/gEw==
+"@takamachi/eslint-config@^1.0.19":
+  version "1.0.19"
+  resolved "https://registry.yarnpkg.com/@takamachi/eslint-config/-/eslint-config-1.0.19.tgz#3e59e1446c1f0a3f11766977437de81ec4528d08"
+  integrity sha512-fLeLJxgS/W+s/kvE+7ue4y4fcMZ6+DQWRH5DTb5ySr2CdSkqvDv9a2wjXRD9MizThrKY9kJvT1XQAkQtQVUTlQ==
   dependencies:
     "@typescript-eslint/eslint-plugin" "^4.32.0"
     "@typescript-eslint/parser" "^4.32.0"
@@ -621,7 +621,7 @@
     eslint-plugin-import "^2.24.2"
     eslint-plugin-jsx-a11y "^6.4.1"
     eslint-plugin-node "^11.1.0"
-    eslint-plugin-react "^7.26.0"
+    eslint-plugin-react "^7.26.1"
     eslint-plugin-react-hooks "^4.2.0"
     eslint-plugin-simple-import-sort "^7.0.0"
     eslint-plugin-unicorn "^36.0.0"
@@ -1911,7 +1911,7 @@ eslint-plugin-react-hooks@^4.2.0:
   resolved "https://registry.yarnpkg.com/eslint-plugin-react-hooks/-/eslint-plugin-react-hooks-4.2.0.tgz#8c229c268d468956334c943bb45fc860280f5556"
   integrity sha512-623WEiZJqxR7VdxFCKLI6d6LLpwJkGPYKODnkH3D7WpOG5KM8yWueBd8TLsNAetEJNF5iJmolaAKO3F8yzyVBQ==
 
-eslint-plugin-react@^7.26.0:
+eslint-plugin-react@^7.26.1:
   version "7.26.1"
   resolved "https://registry.yarnpkg.com/eslint-plugin-react/-/eslint-plugin-react-7.26.1.tgz#41bcfe3e39e6a5ac040971c1af94437c80daa40e"
   integrity sha512-Lug0+NOFXeOE+ORZ5pbsh6mSKjBKXDXItUD2sQoT+5Yl0eoT82DqnXeTMfUare4QVCn9QwXbfzO/dBLjLXwVjQ==
