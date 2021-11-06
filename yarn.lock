@@ -611,10 +611,10 @@
   dependencies:
     "@sinonjs/commons" "^1.7.0"
 
-"@takamachi/eslint-config@^2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@takamachi/eslint-config/-/eslint-config-2.0.0.tgz#258efd13647bcb0b68b99fa7671630c872e9a883"
-  integrity sha512-hQ1I8yTRIsrpsZ/wAsaRcVt9+PYA9VamxsNdemnU9Vbx5aZwUUKS0M9uUnPYzxmHELXUODaN0hcjh7QuAgysYA==
+"@takamachi/eslint-config@^2.1.0":
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@takamachi/eslint-config/-/eslint-config-2.1.0.tgz#a85fc057f4a3dab53a14481b391cb768a324f5e3"
+  integrity sha512-2S4UuclcIRgEKB71czQx8F+BlwRUabS42YM8IrfrZHPb38CKzuOAq9W2w5OAaVsidOGEBAmKd5yXG/YSUdpbQQ==
   dependencies:
     "@typescript-eslint/eslint-plugin" "^4.33.0"
     "@typescript-eslint/parser" "^4.33.0"
@@ -625,7 +625,7 @@
     eslint-plugin-react "^7.26.1"
     eslint-plugin-react-hooks "^4.2.0"
     eslint-plugin-simple-import-sort "^7.0.0"
-    eslint-plugin-unicorn "^37.0.1"
+    eslint-plugin-unicorn "^38.0.0"
     eslint-plugin-unused-imports "^1.1.5"
 
 "@tootallnate/once@1":
@@ -1986,10 +1986,10 @@ eslint-plugin-simple-import-sort@^7.0.0:
   resolved "https://registry.yarnpkg.com/eslint-plugin-simple-import-sort/-/eslint-plugin-simple-import-sort-7.0.0.tgz#a1dad262f46d2184a90095a60c66fef74727f0f8"
   integrity sha512-U3vEDB5zhYPNfxT5TYR7u01dboFZp+HNpnGhkDB2g/2E4wZ/g1Q9Ton8UwCLfRV9yAKyYqDh62oHOamvkFxsvw==
 
-eslint-plugin-unicorn@^37.0.1:
-  version "37.0.1"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-unicorn/-/eslint-plugin-unicorn-37.0.1.tgz#a2292dc302ffc0be1791e6ebbb4ae93242833f11"
-  integrity sha512-E1jq5u9ojnadisJcPi+hMXTGSiIzkIUMDvWsBudsCGXvKUB2aNSU2TcfyW2/jAS5A4ryBXfzxLykMxX1EdluSQ==
+eslint-plugin-unicorn@^38.0.0:
+  version "38.0.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-unicorn/-/eslint-plugin-unicorn-38.0.0.tgz#10b2a1a9d1ec6b168a9e70ca2235b1124a8a2dcc"
+  integrity sha512-8Ut3S0RTkk+9T90RmIi1NqiJ4AVCreaMjHaIXxO/IgYCNp+zxixj8Q3eXikf8RZi4vwytxefVqx6mU5LSEEx2w==
   dependencies:
     "@babel/helper-validator-identifier" "^7.14.9"
     ci-info "^3.2.0"
