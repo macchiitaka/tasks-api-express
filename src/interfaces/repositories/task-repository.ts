@@ -36,7 +36,7 @@ export class TaskRepository implements TaskRepositoryInterface {
 
       return {
         success: false,
-        error,
+        error: error instanceof Error ? error : new Error('Unexpected error'),
       }
     }
   }
@@ -65,7 +65,7 @@ export class TaskRepository implements TaskRepositoryInterface {
 
       return {
         success: false,
-        error,
+        error: error instanceof Error ? error : new Error('Unexpected error'),
       }
     }
   }
@@ -85,7 +85,7 @@ export class TaskRepository implements TaskRepositoryInterface {
 
       return {
         success: false,
-        error,
+        error: error instanceof Error ? error : new Error('Unexpected error'),
       }
     }
   }
@@ -108,7 +108,7 @@ export class TaskRepository implements TaskRepositoryInterface {
 
       return {
         success: false,
-        error,
+        error: error instanceof Error ? error : new Error('Unexpected error'),
       }
     }
   }
@@ -130,7 +130,7 @@ export class TaskRepository implements TaskRepositoryInterface {
 
       return {
         success: false,
-        error,
+        error: error instanceof Error ? error : new Error('Unexpected error'),
       }
     }
   }
