@@ -43,7 +43,7 @@
     "zod": "^3.11.6"
   },
   "devDependencies": {
-    "@takamachi/eslint-config": "^2.3.1",
+    "@takamachi/eslint-config": "^2.4.0",
     "@types/cors": "^2.8.12",
     "@types/eslint": "8.2.2",
     "@types/express": "^4.17.13",
