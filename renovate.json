@@ -1,5 +1,6 @@
 {
   "extends": ["github>macchiitaka/renovate-config", ":assignee(macchiitaka)"],
+  "rangeStrategy": "auto",
   "packageRules": [
     {
       "description": "enable package.json > engines update",
