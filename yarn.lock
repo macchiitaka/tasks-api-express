@@ -2444,12 +2444,12 @@ helmet@*, helmet@^5.0.2:
   resolved "https://registry.yarnpkg.com/helmet/-/helmet-5.0.2.tgz#3264ec6bab96c82deaf65e3403c369424cb2366c"
   integrity sha512-QWlwUZZ8BtlvwYVTSDTBChGf8EOcQ2LkGMnQJxSzD1mUu8CCjXJZq/BXP8eWw4kikRnzlhtYo3lCk0ucmYA3Vg==
 
-hosted-git-info@^2.1.4, hosted-git-info@^4.1.0:
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/hosted-git-info/-/hosted-git-info-4.1.0.tgz#827b82867e9ff1c8d0c4d9d53880397d2c86d224"
-  integrity sha512-kyCuEOWjJqZuDbRHzL8V93NzQhwIB71oFWSyzVo+KPZI+pnQPPxucdkrOZvkLRnrf5URsQM+IJ09Dw29cRALIA==
+hosted-git-info@^2.1.4, hosted-git-info@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/hosted-git-info/-/hosted-git-info-5.0.0.tgz#df7a06678b4ebd722139786303db80fdf302ea56"
+  integrity sha512-rRnjWu0Bxj+nIfUOkz0695C0H6tRrN5iYIzYejb0tDEefe2AekHu/U5Kn9pEie5vsJqpNQU02az7TGSH3qpz4Q==
   dependencies:
-    lru-cache "^6.0.0"
+    lru-cache "^7.5.1"
 
 html-encoding-sniffer@^2.0.1:
   version "2.0.1"
@@ -3421,6 +3421,11 @@ lru-cache@^6.0.0:
   integrity sha512-Jo6dJ04CmSjuznwJSS3pUeWmd/H0ffTlkXXgwZi+eq1UCmqQwCh+eLsYOYCwY991i2Fah4h1BEMCx4qThGbsiA==
   dependencies:
     yallist "^4.0.0"
+
+lru-cache@^7.5.1:
+  version "7.6.0"
+  resolved "https://registry.yarnpkg.com/lru-cache/-/lru-cache-7.6.0.tgz#33c9a9815ce6e4c0e2d5d151f6a28400770e7ce0"
+  integrity sha512-zjOf6cyMI7rcN+5MtLsT4GnDjc6D9XHi8kYcsfXTqWC+yLdSiU3/jtEPX9wZE77+XLtnmdIWu3+291hkizfH+Q==
 
 make-dir@^3.0.0:
   version "3.1.0"
