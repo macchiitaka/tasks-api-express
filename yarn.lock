@@ -604,10 +604,10 @@
   dependencies:
     "@sinonjs/commons" "^1.7.0"
 
-"@takamachi/eslint-config@2.6.4":
-  version "2.6.4"
-  resolved "https://registry.yarnpkg.com/@takamachi/eslint-config/-/eslint-config-2.6.4.tgz#43019351aceb2ba446ba1867fa53fe5f7ea29dcb"
-  integrity sha512-YwxYRst21R0Ox8B2gUUBCVdplYhoFsKulQ4a7hr4v6Vsat3dT7+ABiyDzRTz+HI3eLI28//lPZCHNTCwNQOeOA==
+"@takamachi/eslint-config@2.6.6":
+  version "2.6.6"
+  resolved "https://registry.yarnpkg.com/@takamachi/eslint-config/-/eslint-config-2.6.6.tgz#c746ce255f51755105f5ae610c5b4a8b905b75ad"
+  integrity sha512-WlllUbDdFvjH/vUlP4DNmpBVu9INe3K+Ea+BK8ah56I87amRyg3+DKGKn6L1OZcjjJx2EalFmow95MUCKwmYJg==
   dependencies:
     "@typescript-eslint/eslint-plugin" "^5.17.0"
     "@typescript-eslint/parser" "^5.17.0"
@@ -616,9 +616,9 @@
     eslint-plugin-jsx-a11y "^6.5.1"
     eslint-plugin-node "^11.1.0"
     eslint-plugin-react "^7.29.4"
-    eslint-plugin-react-hooks "^4.3.0"
+    eslint-plugin-react-hooks "^4.4.0"
     eslint-plugin-simple-import-sort "^7.0.0"
-    eslint-plugin-unicorn "^41.0.1"
+    eslint-plugin-unicorn "^42.0.0"
     eslint-plugin-unused-imports "^2.0.0"
 
 "@tootallnate/once@1":
@@ -1898,7 +1898,7 @@ eslint-plugin-node@^11.1.0:
     resolve "^1.10.1"
     semver "^6.1.0"
 
-eslint-plugin-react-hooks@^4.3.0:
+eslint-plugin-react-hooks@^4.4.0:
   version "4.4.0"
   resolved "https://registry.yarnpkg.com/eslint-plugin-react-hooks/-/eslint-plugin-react-hooks-4.4.0.tgz#71c39e528764c848d8253e1aa2c7024ed505f6c4"
   integrity sha512-U3RVIfdzJaeKDQKEJbz5p3NW8/L80PCATJAfuojwbaEL+gBjfGdhUcGde+WGUW46Q5sr/NgxevsIiDtNXrvZaQ==
@@ -1928,10 +1928,10 @@ eslint-plugin-simple-import-sort@^7.0.0:
   resolved "https://registry.yarnpkg.com/eslint-plugin-simple-import-sort/-/eslint-plugin-simple-import-sort-7.0.0.tgz#a1dad262f46d2184a90095a60c66fef74727f0f8"
   integrity sha512-U3vEDB5zhYPNfxT5TYR7u01dboFZp+HNpnGhkDB2g/2E4wZ/g1Q9Ton8UwCLfRV9yAKyYqDh62oHOamvkFxsvw==
 
-eslint-plugin-unicorn@^41.0.1:
-  version "41.0.1"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-unicorn/-/eslint-plugin-unicorn-41.0.1.tgz#b49205b38e71e227d21fb5776f8d078a1dc637ca"
-  integrity sha512-gF5vo2dIj0YdNMQ/IMegiBkQdQ22GBFFVpdkJP+0og3w7XD4ypea0xQVRv6iofkLVR2w0phAdikcnU01ybd4Ow==
+eslint-plugin-unicorn@^42.0.0:
+  version "42.0.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-unicorn/-/eslint-plugin-unicorn-42.0.0.tgz#47d60c00c263ad743403b052db689e39acbacff1"
+  integrity sha512-ixBsbhgWuxVaNlPTT8AyfJMlhyC5flCJFjyK3oKE8TRrwBnaHvUbuIkCM1lqg8ryYrFStL/T557zfKzX4GKSlg==
   dependencies:
     "@babel/helper-validator-identifier" "^7.15.7"
     ci-info "^3.3.0"
