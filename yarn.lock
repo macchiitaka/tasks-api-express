@@ -818,10 +818,10 @@
   dependencies:
     "@types/istanbul-lib-report" "*"
 
-"@types/jest@27.5.1":
-  version "27.5.1"
-  resolved "https://registry.yarnpkg.com/@types/jest/-/jest-27.5.1.tgz#2c8b6dc6ff85c33bcd07d0b62cb3d19ddfdb3ab9"
-  integrity sha512-fUy7YRpT+rHXto1YlL+J9rs0uLGyiqVt3ZOTQR+4ROc47yNl8WLdVLgUloBRhOxP1PZvguHl44T3H0wAWxahYQ==
+"@types/jest@27.5.2":
+  version "27.5.2"
+  resolved "https://registry.yarnpkg.com/@types/jest/-/jest-27.5.2.tgz#ec49d29d926500ffb9fd22b84262e862049c026c"
+  integrity sha512-mpT8LJJ4CMeeahobofYWIjFo0xonRS/HfxnVEPMPFSQdGUt1uHCnoPT7Zhb+sjDU2wz0oKV0OLUR0WzrHNgfeA==
   dependencies:
     jest-matcher-utils "^27.0.0"
     pretty-format "^27.0.0"
@@ -4494,10 +4494,10 @@ tree-kill@^1.2.2:
   resolved "https://registry.yarnpkg.com/tree-kill/-/tree-kill-1.2.2.tgz#4ca09a9092c88b73a7cdc5e8a01b507b0790a0cc"
   integrity sha512-L0Orpi8qGpRG//Nd+H90vFB+3iHnue1zSSGmNOOCh1GLJ7rUKVwV2HvijphGQS2UmhUZewS9VgvxYIdgr+fG1A==
 
-ts-jest@28.0.3:
-  version "28.0.3"
-  resolved "https://registry.yarnpkg.com/ts-jest/-/ts-jest-28.0.3.tgz#d1c47f167e56eef3989bb51afaf7fc1c87a04c52"
-  integrity sha512-HzgbEDQ2KgVtDmpXToqAcKTyGHdHsG23i/iUjfxji92G5eT09S1m9UHZd7csF0Bfgh9txM4JzwHnv7r1waFPlw==
+ts-jest@28.0.4:
+  version "28.0.4"
+  resolved "https://registry.yarnpkg.com/ts-jest/-/ts-jest-28.0.4.tgz#0ab705a60fc4b9f3506f35e26edfa9e9c915c31b"
+  integrity sha512-S6uRDDdCJBvnZqyGjB4VCnwbQrbgdL8WPeP4jevVSpYsBaeGRQAIS08o3Svav2Ex+oXwLgJ/m7F24TNq62kA1A==
   dependencies:
     bs-logger "0.x"
     fast-json-stable-stringify "2.x"
