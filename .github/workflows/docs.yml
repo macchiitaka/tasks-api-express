@@ -11,8 +11,8 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '16.16.0'
-          cache: 'yarn'
+          node-version: 16.16.0
+          cache: yarn
       - name: Build document
         run: yarn doc:build
       - if: github.ref == 'refs/heads/master'
