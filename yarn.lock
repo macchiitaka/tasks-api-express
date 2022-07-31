@@ -649,21 +649,21 @@
   dependencies:
     "@sinonjs/commons" "^1.7.0"
 
-"@takamachi/eslint-config@2.9.1":
-  version "2.9.1"
-  resolved "https://registry.yarnpkg.com/@takamachi/eslint-config/-/eslint-config-2.9.1.tgz#0455419786f94db0e7d3663316f14d6f3df9bfc6"
-  integrity sha512-QRYaczPASe+x+gfV45UdIMBfcKyyEajZXIjgeqiMFzyNmlafSx80LEttZj40uTT+GmzfZuxQQTTmMde36u7urA==
+"@takamachi/eslint-config@2.9.2":
+  version "2.9.2"
+  resolved "https://registry.yarnpkg.com/@takamachi/eslint-config/-/eslint-config-2.9.2.tgz#efe83e12c87365c934912fc7fc7c97bae53d231f"
+  integrity sha512-iDei9bhEGdfgJ1iWWp8gyYlSXe/hbz58lN6AgcnEdCDTEemsymiQdDZ3AhKUrzw9VgL9u97iJN431htYhClthw==
   dependencies:
-    "@typescript-eslint/eslint-plugin" "^5.30.5"
-    "@typescript-eslint/parser" "^5.30.5"
+    "@typescript-eslint/eslint-plugin" "^5.31.0"
+    "@typescript-eslint/parser" "^5.31.0"
     eslint-config-prettier "^8.5.0"
     eslint-plugin-import "^2.26.0"
-    eslint-plugin-jsx-a11y "^6.6.0"
+    eslint-plugin-jsx-a11y "^6.6.1"
     eslint-plugin-node "^11.1.0"
     eslint-plugin-react "^7.30.1"
     eslint-plugin-react-hooks "^4.6.0"
     eslint-plugin-simple-import-sort "^7.0.0"
-    eslint-plugin-unicorn "^43.0.1"
+    eslint-plugin-unicorn "^43.0.2"
     eslint-plugin-unused-imports "^2.0.0"
 
 "@tsconfig/node10@^1.0.7":
@@ -912,7 +912,7 @@
   dependencies:
     "@types/yargs-parser" "*"
 
-"@typescript-eslint/eslint-plugin@^5.30.5":
+"@typescript-eslint/eslint-plugin@^5.31.0":
   version "5.31.0"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/eslint-plugin/-/eslint-plugin-5.31.0.tgz#cae1967b1e569e6171bbc6bec2afa4e0c8efccfe"
   integrity sha512-VKW4JPHzG5yhYQrQ1AzXgVgX8ZAJEvCz0QI6mLRX4tf7rnFfh5D8SKm0Pq6w5PyNfAWJk6sv313+nEt3ohWMBQ==
@@ -927,7 +927,7 @@
     semver "^7.3.7"
     tsutils "^3.21.0"
 
-"@typescript-eslint/parser@^5.30.5":
+"@typescript-eslint/parser@^5.31.0":
   version "5.31.0"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/parser/-/parser-5.31.0.tgz#7f42d7dcc68a0a6d80a0f3d9a65063aee7bb8d2c"
   integrity sha512-UStjQiZ9OFTFReTrN+iGrC6O/ko9LVDhreEK5S3edmXgR396JGq7CoX2TWIptqt/ESzU2iRKXAHfSF2WJFcWHw==
@@ -1819,7 +1819,7 @@ eslint-plugin-jest@26.7.0:
   dependencies:
     "@typescript-eslint/utils" "^5.10.0"
 
-eslint-plugin-jsx-a11y@^6.6.0:
+eslint-plugin-jsx-a11y@^6.6.1:
   version "6.6.1"
   resolved "https://registry.yarnpkg.com/eslint-plugin-jsx-a11y/-/eslint-plugin-jsx-a11y-6.6.1.tgz#93736fc91b83fdc38cc8d115deedfc3091aef1ff"
   integrity sha512-sXgFVNHiWffBq23uiS/JaP6eVR622DqwB4yTzKvGZGcPq6/yZ3WmOZfuBks/vHWo9GaFOqC2ZK4i6+C35knx7Q==
@@ -1880,7 +1880,7 @@ eslint-plugin-simple-import-sort@^7.0.0:
   resolved "https://registry.yarnpkg.com/eslint-plugin-simple-import-sort/-/eslint-plugin-simple-import-sort-7.0.0.tgz#a1dad262f46d2184a90095a60c66fef74727f0f8"
   integrity sha512-U3vEDB5zhYPNfxT5TYR7u01dboFZp+HNpnGhkDB2g/2E4wZ/g1Q9Ton8UwCLfRV9yAKyYqDh62oHOamvkFxsvw==
 
-eslint-plugin-unicorn@^43.0.1:
+eslint-plugin-unicorn@^43.0.2:
   version "43.0.2"
   resolved "https://registry.yarnpkg.com/eslint-plugin-unicorn/-/eslint-plugin-unicorn-43.0.2.tgz#b189d58494c8a0985a4b89dba5dbfde3ad7575a5"
   integrity sha512-DtqZ5mf/GMlfWoz1abIjq5jZfaFuHzGBZYIeuJfEoKKGWRHr2JiJR+ea+BF7Wx2N1PPRoT/2fwgiK1NnmNE3Hg==
