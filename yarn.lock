@@ -674,10 +674,10 @@
   dependencies:
     "@sinonjs/commons" "^1.7.0"
 
-"@takamachi/eslint-config@2.9.9":
-  version "2.9.9"
-  resolved "https://registry.yarnpkg.com/@takamachi/eslint-config/-/eslint-config-2.9.9.tgz#f7f3ed35e53ac75c62a2ecf23074d95020e8d571"
-  integrity sha512-3BpZW/7vwlR8irsFhcWaqIu716rgmw3jUJWRki1TvbzXk3FGfnuIbJocTyVWkqyasQjwZkjJvPOu/77R0Synww==
+"@takamachi/eslint-config@2.9.10":
+  version "2.9.10"
+  resolved "https://registry.yarnpkg.com/@takamachi/eslint-config/-/eslint-config-2.9.10.tgz#8236386094df49b55e862e0a98c6abdac08c3581"
+  integrity sha512-eLu1qoOROG8T/Z6BzK9Ufc6MYsU2/JVbvbTpADLfiKBUbWD45GRK27qAIr63boixZdV8nt2S6cc0Hy0jBYqSYA==
   dependencies:
     "@typescript-eslint/eslint-plugin" "^5.44.0"
     "@typescript-eslint/parser" "^5.44.0"
