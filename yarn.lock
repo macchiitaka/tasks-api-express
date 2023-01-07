@@ -674,21 +674,21 @@
   dependencies:
     "@sinonjs/commons" "^1.7.0"
 
-"@takamachi/eslint-config@2.9.10":
-  version "2.9.10"
-  resolved "https://registry.yarnpkg.com/@takamachi/eslint-config/-/eslint-config-2.9.10.tgz#8236386094df49b55e862e0a98c6abdac08c3581"
-  integrity sha512-eLu1qoOROG8T/Z6BzK9Ufc6MYsU2/JVbvbTpADLfiKBUbWD45GRK27qAIr63boixZdV8nt2S6cc0Hy0jBYqSYA==
+"@takamachi/eslint-config@2.9.11":
+  version "2.9.11"
+  resolved "https://registry.yarnpkg.com/@takamachi/eslint-config/-/eslint-config-2.9.11.tgz#771e8b8211e9b54f5deba4234abccbe094e0e11c"
+  integrity sha512-tjmVdq3+nm2iIJyRL3QP3at54HXSqG48H8p/J6m8tB7b7MTJsM30i4UpPzfVfyIpN1n9cY/78EpOHp4AN9O7mw==
   dependencies:
-    "@typescript-eslint/eslint-plugin" "^5.44.0"
-    "@typescript-eslint/parser" "^5.44.0"
-    eslint-config-prettier "^8.5.0"
+    "@typescript-eslint/eslint-plugin" "^5.48.0"
+    "@typescript-eslint/parser" "^5.48.0"
+    eslint-config-prettier "^8.6.0"
     eslint-plugin-import "^2.26.0"
     eslint-plugin-jsx-a11y "^6.6.1"
     eslint-plugin-node "^11.1.0"
     eslint-plugin-react "^7.31.11"
     eslint-plugin-react-hooks "^4.6.0"
     eslint-plugin-simple-import-sort "^8.0.0"
-    eslint-plugin-unicorn "^45.0.0"
+    eslint-plugin-unicorn "^45.0.2"
     eslint-plugin-unused-imports "^2.0.0"
 
 "@tsconfig/node10@^1.0.7":
@@ -931,7 +931,7 @@
   dependencies:
     "@types/yargs-parser" "*"
 
-"@typescript-eslint/eslint-plugin@^5.44.0":
+"@typescript-eslint/eslint-plugin@^5.48.0":
   version "5.48.0"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/eslint-plugin/-/eslint-plugin-5.48.0.tgz#54f8368d080eb384a455f60c2ee044e948a8ce67"
   integrity sha512-SVLafp0NXpoJY7ut6VFVUU9I+YeFsDzeQwtK0WZ+xbRN3mtxJ08je+6Oi2N89qDn087COdO0u3blKZNv9VetRQ==
@@ -946,7 +946,7 @@
     semver "^7.3.7"
     tsutils "^3.21.0"
 
-"@typescript-eslint/parser@^5.44.0":
+"@typescript-eslint/parser@^5.48.0":
   version "5.48.0"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/parser/-/parser-5.48.0.tgz#02803355b23884a83e543755349809a50b7ed9ba"
   integrity sha512-1mxNA8qfgxX8kBvRDIHEzrRGrKHQfQlbW6iHyfHYS0Q4X1af+S6mkLNtgCOsGVl8+/LUPrqdHMssAemkrQ01qg==
@@ -1828,7 +1828,7 @@ escape-string-regexp@^4.0.0:
   resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-4.0.0.tgz#14ba83a5d373e3d311e5afca29cf5bfad965bf34"
   integrity sha512-TtpcNJ3XAzx3Gq8sWRzJaVajRs0uVxA2YAkdb1jm2YkPz4G6egUFAyA3n5vtEIZefPk5Wa4UXbKuS5fKkJWdgA==
 
-eslint-config-prettier@^8.5.0:
+eslint-config-prettier@^8.6.0:
   version "8.6.0"
   resolved "https://registry.yarnpkg.com/eslint-config-prettier/-/eslint-config-prettier-8.6.0.tgz#dec1d29ab728f4fa63061774e1672ac4e363d207"
   integrity sha512-bAF0eLpLVqP5oEVUFKpMA+NnRFICwn9X8B5jrR9FcqnYBuPbqWEjTEspPWMj5ye6czoSLDweCzSo3Ko7gGrZaA==
@@ -1944,7 +1944,7 @@ eslint-plugin-simple-import-sort@^8.0.0:
   resolved "https://registry.yarnpkg.com/eslint-plugin-simple-import-sort/-/eslint-plugin-simple-import-sort-8.0.0.tgz#9d9a2372b0606e999ea841b10458a370a6ccc160"
   integrity sha512-bXgJQ+lqhtQBCuWY/FUWdB27j4+lqcvXv5rUARkzbeWLwea+S5eBZEQrhnO+WgX3ZoJHVj0cn943iyXwByHHQw==
 
-eslint-plugin-unicorn@^45.0.0:
+eslint-plugin-unicorn@^45.0.2:
   version "45.0.2"
   resolved "https://registry.yarnpkg.com/eslint-plugin-unicorn/-/eslint-plugin-unicorn-45.0.2.tgz#d6ba704793a6909fe5dfe013900d2b05b715284c"
   integrity sha512-Y0WUDXRyGDMcKLiwgL3zSMpHrXI00xmdyixEGIg90gHnj0PcHY4moNv3Ppje/kDivdAy5vUeUr7z211ImPv2gw==
