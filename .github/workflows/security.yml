@@ -6,7 +6,7 @@ on:
 jobs:
   audit:
     name: Security Audit
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
