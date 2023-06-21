@@ -70,7 +70,7 @@
   },
   "packageManager": "yarn@1.22.19",
   "engines": {
-    "node": "16.20.0",
+    "node": "16.20.1",
     "yarn": "1.22.19"
   }
 }
