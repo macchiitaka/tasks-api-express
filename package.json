@@ -32,7 +32,7 @@
     "type-watch": "tsc --noEmit -w"
   },
   "resolutions": {
-    "hosted-git-info": "^6.0.0"
+    "hosted-git-info": "^7.0.0"
   },
   "dependencies": {
     "@prisma/client": "3.15.2",
