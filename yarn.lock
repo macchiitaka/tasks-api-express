@@ -828,10 +828,10 @@
   resolved "https://registry.yarnpkg.com/@types/http-errors/-/http-errors-2.0.1.tgz#20172f9578b225f6c7da63446f56d4ce108d5a65"
   integrity sha512-/K3ds8TRAfBvi5vfjuz8y6+GiAYBZ0x4tXv1Av6CWBWn0IlADc+ZX9pMq7oU0fNQPnBwIZl3rmeLp6SBApbxSQ==
 
-"@types/is-ci@3.0.2":
-  version "3.0.2"
-  resolved "https://registry.yarnpkg.com/@types/is-ci/-/is-ci-3.0.2.tgz#62acd24fc99bf31047086e0f6b1a657919837f15"
-  integrity sha512-9PyP1rgCro6xO3R7zOEoMgx5U9HpLhIg1FFb9p2mWX/x5QI8KMuCWWYtCT1dUQpicp84OsxEAw3iqwIKQY5Pog==
+"@types/is-ci@3.0.3":
+  version "3.0.3"
+  resolved "https://registry.yarnpkg.com/@types/is-ci/-/is-ci-3.0.3.tgz#6042f2fe12a16b2616deabb11d9a422f46a2ec03"
+  integrity sha512-FdHbjLiN2e8fk9QYQyVYZrK8svUDJpxSaSWLUga8EZS1RGAvvrqM9zbVARBtQuYPeLgnJxM2xloOswPwj1o2cQ==
   dependencies:
     ci-info "^3.1.0"
 
