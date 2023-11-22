@@ -16,6 +16,8 @@ jobs:
         with:
           node-version-file: .node-version
           cache: yarn
+      - shell: bash
+        run: corepack enable npm
       - name: Install dependencies
         run: yarn install --frozen-lockfile
       - name: Lint
