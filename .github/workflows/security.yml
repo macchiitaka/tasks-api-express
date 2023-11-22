@@ -15,6 +15,6 @@ jobs:
         with:
           node-version-file: .node-version
       - shell: bash
-        run: corepack enable npm
+        run: corepack enable yarn
       - name: Audit
         run: yarn audit

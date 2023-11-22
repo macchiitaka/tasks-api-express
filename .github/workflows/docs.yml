@@ -14,7 +14,7 @@ jobs:
           node-version-file: .node-version
           cache: yarn
       - shell: bash
-        run: corepack enable npm
+        run: corepack enable yarn
       - name: Build document
         run: yarn doc:build
       - if: github.ref == 'refs/heads/master'
