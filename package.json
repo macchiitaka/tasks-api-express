@@ -62,7 +62,7 @@
     "npm-run-all2": "6.1.2",
     "pinst": "3.0.0",
     "prettier": "3.2.5",
-    "sort-package-json": "2.7.0",
+    "sort-package-json": "2.8.0",
     "ts-jest": "29.1.2",
     "ts-node": "10.9.2",
     "ts-node-dev": "2.0.0",
