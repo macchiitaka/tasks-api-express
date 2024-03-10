@@ -68,9 +68,9 @@
     "ts-node-dev": "2.0.0",
     "typescript": "5.4.2"
   },
-  "packageManager": "yarn@1.22.21",
+  "packageManager": "yarn@1.22.22",
   "engines": {
     "node": "20.11.1",
-    "yarn": "1.22.21"
+    "yarn": "1.22.22"
   }
 }
